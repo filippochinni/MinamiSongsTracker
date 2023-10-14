@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minami Songs Tracker</title>
+    <link rel="icon" type="image/x-icon" href="./res/images/MinamiLogoIco.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Minami Songs Tracker</h1>
+        <p id="subtitle"></p>
+		<p id="feedback"></p>
+    </header>
+
+    <div id="inputDiv">
+        <input id="searchBar" type="text"/>
+
+        <div id="searchButtonsDiv">
+            <button id="searchNameButton" class="searchButton">Search by Name</button>
+            <button id="searchAlbumButton" class="searchButton">Search by Album/Single</button>
+            <button id="searchYear" class="searchButton">Search by Year</button>
+        </div>
+
+        <div id="trackButtonsDiv">
+            <button id="playlistSongButton" class="trackButton">Playlist Songs</button>
+            <button id="heardSongButton" class="trackButton">Heard Songs</button>
+            <button id="unheardSongButton" class="trackButton">Unheard Songs</button>
+        </div>
+
+        <div id="sortButtonsDiv">
+            <button id="sortNameButton" class="sortButton">Song
+                <img class="arrowImage"/>
+            </button>
+            <button id="sortAlbumButton" class="sortButton">Album
+                <img class="arrowImage"/>
+            </button>
+            <button id="sortYearButton" class="sortButton">Year
+                <img class="arrowImage"/>
+            </button>
+        </div>
+
+    </div>
+
+    <div id="outputDiv">
+
+    </div>
+    
+
+    <script type="module" src="./src/MinamiSongs.js"></script>
+</body>
+</html>
