@@ -1,6 +1,6 @@
 # MinamiSongsTracker
 
-**Minami Songs Tracker is a fanmade web-application to keep track of the great Japanese singer Minami.** <br><br>
+**Minami Songs Tracker is a fanmade web-application to keep track of the songs of the great Japanese singer Minami.** <br><br>
 
 The data for each song on this website is derived from an Excel spreadsheet which I personally made to create this Tracker, maybe in the future I will upload it.<br><br>
 
