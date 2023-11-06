@@ -4,7 +4,7 @@ import { MinamiSongsJSON } from "./songsJSON.js";
 
 const localStorageKey = "User_Minami";
 
-const MinamiSongs = (localStorage.length > 0) ? initPage() : MinamiSongsJSON;
+const MinamiSongs = (localStorage.getItem(localStorageKey)) ? initPage() : MinamiSongsJSON;
 
 const subtitleText = `The are currently ("Albumless" included) ${MinamiSongs.length} Minami's Songs`;
 const feedbackText = `The Songs which satisfy the Search Criteria are in total `;
