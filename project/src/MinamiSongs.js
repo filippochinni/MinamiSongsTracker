@@ -2,7 +2,7 @@
 
 import { MinamiSongsJSON } from "./songsJSON.js";
 
-const localStorageKey = "User";
+const localStorageKey = "User_Minami";
 
 const MinamiSongs = (localStorage.length > 0) ? initPage() : MinamiSongsJSON;
 
