@@ -90,10 +90,10 @@ export const MinamiSongsJSON = [
 		"Check": 0
 	},
 	{
-		"Title": "F and B",
+		"Title": "F to B",
 		"Kanji Title": "FとB",
 		"Song": "https://soundcloud.com/free-freth-almazan/fb-minami",
-		"Search on YT": "https://www.google.com/search?q=F and B+Minami",
+		"Search on YT": "https://www.google.com/search?q=F to B+Minami",
 		"Single/Album": "Intent",
 		"Year": "2015",
 		"Check": 0
@@ -180,10 +180,10 @@ export const MinamiSongsJSON = [
 		"Check": 0
 	},
 	{
-		"Title": "Kimi to Boku no 154 Shosetsu Senso",
+		"Title": "Kimi to Boku no 154 Shousetsu Sensou",
 		"Kanji Title": "君と僕の１５４小節戦争",
 		"Song": "https://www.youtube.com/watch?v=G0eVUgX4PDo&ab_channel=Minami-Topic",
-		"Search on YT": "https://m.youtube.com/results?sp=mAEA&search_query=Kimi To Boku No 154 Shosetsu Senso+Minami",
+		"Search on YT": "https://m.youtube.com/results?sp=mAEA&search_query=Kimi To Boku No 154 Shousetsu Sensou+Minami",
 		"Single/Album": "DROP",
 		"Year": "2021",
 		"Check": 0
